@@ -13,7 +13,7 @@
 - dotenv
 - express
 - express-jwt
-- jsonwebtoken\
+- jsonwebtoken
 - mongodb
 - mongoose
 - nodemon
@@ -65,7 +65,7 @@ User dapat login dan akan mendapatkan authentication token. Di mana token dapat 
 
 ### 3. GET /users/
 **Description:** 
-Mengembalikan list semua data user. Hanya dapat diakses user sebagai admin
+Mengembalikan list semua data user. Hanya dapat diakses admin
 
 **Headers:** Authentication token.
 
@@ -77,7 +77,7 @@ tidak ada
 
 ### 4. GET /users/:id
 **Description:** 
-Mengembalikan data user berdasarkan ID. Hanya dapat diakses oleh user sebagai admin
+Mengembalikan data user berdasarkan ID. Hanya dapat diakses oleh admin
 
 **Headers:** Authentication token.
 
@@ -89,7 +89,7 @@ tidak ada
 
 ### 5. DELETE /users/:id
 **Description:** 
-Menghapus sebuah user berdasarkan ID. Hanya dapat diakses oleh user sebagai admin
+Menghapus sebuah user berdasarkan ID. Hanya dapat diakses oleh admin
 
 **Headers:** Authentication token.
 
@@ -126,7 +126,7 @@ tidak ada
 
 ### 3. POST /products/
 **Description:** 
-Menambahkan produk yang akan dijual. Hanya dapat diakses user sebagai admin
+Menambahkan produk yang akan dijual. Hanya dapat diakses admin
 
 **Headers:** 
 Authentication token
@@ -137,7 +137,7 @@ Authentication token
 
 ### 4. PUT /products/:id
 **Description:** 
-mengubah data produk berdasarkan id. Hanya dapat diakses user sebagai admin
+mengubah data produk berdasarkan id. Hanya dapat diakses admin
 
 **Headers:** 
 Authentication token
@@ -148,7 +148,7 @@ Authentication token
 
 ### 5. DELETE /products/:id
 **Description:** 
-Menghapus produk berdasarkan id. Hanya dapat diakses oleh user sebagai admin
+Menghapus produk berdasarkan id. Hanya dapat diakses oleh admin
 
 **Headers:** 
 Authentication token
