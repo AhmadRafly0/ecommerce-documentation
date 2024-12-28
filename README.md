@@ -6,7 +6,7 @@
 - Back-end ini mendukung proses bisnis jual beli barang bekas. 
 - Sistem mendukung autentikasi JWT.
 - Semua data yang dibuat akan tersimpan di database MongoDB dan akan mendapatkan ID yang unik.
-- Bahasa yang digunakan adalah Javascript dengan NodeJS dan Framework yang digunakan adalah express.js
+- Bahasa yang digunakan adalah Javascript menggunakan NodeJS dan Framework yang digunakan adalah express.js
 
 ## Package yang digunakan : 
 - bcryptjs
