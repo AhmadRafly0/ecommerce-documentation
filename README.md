@@ -41,7 +41,7 @@
 ## USERS
 
 
-### 1. POST /users/
+### 1. POST /users/register
 **Description:** Mendaftarkan pengguna baru.
 
 **Headers:** Tidak ada.
