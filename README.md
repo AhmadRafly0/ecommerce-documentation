@@ -22,7 +22,7 @@
 
 ## Endpoints
 ### Users
-- POST /users/
+- POST /users/register
 - POST /users/login
 - GET /users/
 - GET /users/:id
